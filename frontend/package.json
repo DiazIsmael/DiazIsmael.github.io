@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vite build",
     "lint": "vue-cli-service lint",
     "predeploy": "npm run build",
     "deploy": "diazismael.github.io -d dist"
@@ -19,6 +19,7 @@
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-import": "^15.1.0",
     "postcss-preset-env": "^7.8.3",
+    "vite": "^5.0.10",
     "vue": "^3.2.45",
     "vue-backtotop": "^1.6.1",
     "vue-router": "^4.1.6",
